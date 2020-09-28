@@ -10,7 +10,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:900|Roboto+Mono:300,400,700);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
-.footer {position: fixed;left: 0;bottom: 0;width: 100%;background-color: red;color: white;text-align: center;}
+.footer {position: fixed;left: 0;bottom: 0;width: 100%;background-color: black;color: white;text-align: center;}
 
 html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 body{margin:0}
