@@ -63,3 +63,59 @@ body{
   color: White;
   background-color: transparent;
 }
+
+/* error 404 css */
+.error-text-404{
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  font-family: "pixel";
+  font-size: 210px;
+  font-weight: bold;
+  color: Red;
+  background-color: transparent;}
+
+.error-text{
+  position: absolute;
+  top: 41%;
+  left: 13%;
+  font-family: "pixel";
+  font-size: 30px;
+  color: White;
+  background-color: transparent;}
+
+.error-button-1{
+  position: absolute;
+  top: 49%;
+  left: 10%;
+  font-family: "pixel";
+  font-size: 38px;
+  color: DarkGrey;
+  background-color: transparent;
+  padding: 15px 32px;
+  margin: 4px 2px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  border: none;}
+  
+.error-button-2{
+  position: absolute;
+  top: 55%;
+  left: 10%;
+  font-family: "pixel";
+  font-size: 38px;
+  color: DarkGrey;
+  background-color: transparent;
+  padding: 15px 32px;
+  margin: 4px 2px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  border: none;}
+
+.error-button-1:hover{
+  color: White;}
+
+.error-button-2:hover{
+  color: White;}
