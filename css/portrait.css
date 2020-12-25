@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'pixel';
+  src: URL('font.ttf') format('truetype');
+}
+
+body{
+  font-family: "pixel";
+  font-size: 25px;
+  color: White;
+}
+
+/* index css */
+
+.index-button{
+  position: absolute;
+  top: 44%;
+  left: 16%;
+  font-family: "pixel";
+  font-size: 38px;
+  color: DarkGrey;
+  background-color: transparent;
+  padding: 15px 32px;
+  margin: 4px 2px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+}
+
+.index-button:hover{
+  color: White;
+}
+
+.index-button:onClick{
+  color: Gray;
+}
+
+.index-logo-center{
+  position: absolute;
+  top: 20%;
+  left: 13%;
+  width: 735px;
+  height: 316px;
+}
+
+.index-footer{
+  position: fixed;
+  font-size: 15px;
+  left: 0;
+  bottom: 0;
+  width: 98%;
+  text-align: right;
+}
+
+/* home css */
+
+.home-text{
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  font-family: "pixel";
+  font-size: 38px;
+  color: White;
+  background-color: transparent;
+}
