@@ -1,12 +1,10 @@
 @font-face {
   font-family: 'pixel';
-  src: URL('font.ttf') format('truetype');
-}
+  src: URL('font.ttf') format('truetype');}
 
 body{
   font-family: "pixel";
-  color: White;
-}
+  color: White;}
 
 /* index css */
 
@@ -24,17 +22,15 @@ body{
   display: inline-block;
   cursor: pointer;
   border: none;
-}
+  outline: none !important;}
 
 .index-button:hover{
-  color: White;
-}
+  color: White;}
 
 .index-logo-center{
   position: absolute;
   top: 10%;
-  left: 25%;
-}
+  left: 25%;}
 
 .index-footer{
   position: fixed;
@@ -42,8 +38,7 @@ body{
   left: 0;
   bottom: 0;
   width: 98%;
-  text-align: right;
-}
+  text-align: right;}
 
 /* home css */
 
@@ -54,8 +49,7 @@ body{
   font-family: "pixel";
   font-size: 25px;
   color: White;
-  background-color: transparent;
-}
+  background-color: transparent;}
 
 /* error 404 css */
 .error-text-404{
@@ -90,7 +84,8 @@ body{
   text-align: center;
   display: inline-block;
   cursor: pointer;
-  border: none;}
+  border: none;
+  outline: none !important;}
   
 .error-button-2{
   position: absolute;
@@ -105,7 +100,8 @@ body{
   text-align: center;
   display: inline-block;
   cursor: pointer;
-  border: none;}
+  border: none;
+  outline: none !important;}
 
 .error-button-1:hover{
   color: White;}
