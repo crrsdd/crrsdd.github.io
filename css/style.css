@@ -5,9 +5,8 @@
 body{
   font-family: "pixel";
   color: White;}
-
+  
 /* index css */
-
 .index-button{
   position: absolute;
   top: 54%;
@@ -29,9 +28,12 @@ body{
 
 .index-logo-center{
   position: absolute;
-  top: 20%;
-  left: 30%;}
-
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;  
+  bottom: 0;}
+  
 .index-footer{
   position: fixed;
   font-size: 10px;
@@ -41,7 +43,6 @@ body{
   text-align: right;}
 
 /* home css */
-
 .home-text{
   position: absolute;
   top: 40%;
