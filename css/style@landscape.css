@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'pixel';
+  src: URL('font.ttf') format('truetype');}
+
+body{
+  background-color: Black;
+  font-family: "pixel";
+  color: White;}
+  
+/* index css */
+.index-button{
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  -moz-transform: translate(-50%, -65%);
+  -webkit-transform: translate(-50%, -65%);
+  transform: translate(-50%, -65%);
+  font-family: "pixel";
+  font-size: 28px;
+  color: DarkGrey;
+  background-color: transparent;
+  padding: 15px 32px;
+  margin: 4px 2px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  outline: none !important;
+  white-space: nowrap;
+  overflow: hidden;}
+
+.index-button:hover{
+  color: White;}
+
+.index-logo-center{
+  position: absolute;
+  margin: auto;
+  top: 30%;
+  left: 50%;
+  -moz-transform: translate(-50%, -30%);
+  -webkit-transform: translate(-50%, -30%);
+  transform: translate(-50%, -30%);
+  max-width: 100%;}
+  
+.index-footer{
+  position: fixed;
+  font-size: 10px;
+  left: 0;
+  bottom: 0;
+  width: 98%;
+  text-align: right;}
