@@ -6,55 +6,55 @@ body{
   background-color: Black;
   font-family: "pixel";
   color: White;}
+/* mobile */
+/* portrait mobile*/
+@media screen and (orientation: portrait){
+  .index-button{
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    -moz-transform: translate(-50%, -56%);
+    -webkit-transform: translate(-50%, -56%);
+    transform: translate(-50%, -56%);
+    font-family: "pixel";
+    font-size: 4vw;
+    color: DarkGrey;
+    background-color: transparent;
+    padding: 10px 10px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    outline: none !important;
+    white-space: nowrap;
+    overflow: hidden;}
 
-.index-button{
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  -moz-transform: translate(-50%, -55%);
-  -webkit-transform: translate(-50%, -55%);
-  transform: translate(-50%, -55%);
-  font-family: "pixel";
-  font-size: 25px;
-  color: DarkGrey;
-  background-color: transparent;
-  padding: 15px 32px;
-  margin: 4px 2px;
-  text-align: center;
-  display: inline-block;
-  cursor: pointer;
-  border: none;
-  outline: none !important;
-  white-space: nowrap;
-  overflow: hidden;}
+  .index-button:hover{
+    color: White;}
 
-.index-button:hover{
-  color: White;}
-
-.index-logo-center{
-  position: absolute;
-  margin: auto;
-  top: 40%;
-  left: 50%;
-  -moz-transform: translate(-50%, -40%);
-  -webkit-transform: translate(-50%, -40%);
-  transform: translate(-50%, -40%);
-  max-width: 100%;}
-  
+  .index-logo-center{
+    position: absolute;
+    margin: auto;
+    top: 35%;
+    left: 50%;
+    -moz-transform: translate(-50%, -35%);
+    -webkit-transform: translate(-50%, -35%);
+    transform: translate(-50%, -35%);
+    max-width: 75vw;}}
+ /* landscape mobile */
   @media screen and (orientation: landscape){
 	.index-button{
 	  position: absolute;
-	  top: 65%;
+	  top: 70%;
 	  left: 50%;
-      -moz-transform: translate(-50%, -65%);
-      -webkit-transform: translate(-50%, -65%);
-      transform: translate(-50%, -65%);
+      -moz-transform: translate(-50%, -70%);
+      -webkit-transform: translate(-50%, -70%);
+      transform: translate(-50%, -70%);
       font-family: "pixel";
-      font-size: 28px;
+      font-size: 2.5vw;
       color: DarkGrey;
       background-color: transparent;
-      padding: 15px 32px;
-      margin: 4px 2px;
+      padding: 10px 10px;
       text-align: center;
       display: inline-block;
       cursor: pointer;
@@ -69,10 +69,9 @@ body{
   .index-logo-center{
       position: absolute;
       margin: auto;
-      top: 30%;
+      top: 17%;
       left: 50%;
-      -moz-transform: translate(-50%, -30%);
-      -webkit-transform: translate(-50%, -30%);
-      transform: translate(-50%, -30%);
-      max-width: 100%;}
-  }
+      -moz-transform: translate(-50%, -17%);
+      -webkit-transform: translate(-50%, -17%);
+      transform: translate(-50%, -17%);
+      max-width: 45vw;}}
