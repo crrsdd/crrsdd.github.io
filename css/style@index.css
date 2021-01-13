@@ -1,13 +1,4 @@
-@font-face {
-  font-family: 'pixel';
-  src: URL('font.ttf') format('truetype');}
-
-body{
-  background-color: Black;
-  font-family: "pixel";
-  color: White;}
-/* mobile */
-/* portrait mobile*/
+/* portrait */
 @media screen and (orientation: portrait){
   .index-button{
     position: absolute;
@@ -40,8 +31,8 @@ body{
     -moz-transform: translate(-50%, -35%);
     -webkit-transform: translate(-50%, -35%);
     transform: translate(-50%, -35%);
-    max-width: 75vw;}}
- /* landscape mobile */
+    width: 75vw;}}
+ /* landscape */
   @media screen and (orientation: landscape){
 	.index-button{
 	  position: absolute;
@@ -74,4 +65,4 @@ body{
       -moz-transform: translate(-50%, -17%);
       -webkit-transform: translate(-50%, -17%);
       transform: translate(-50%, -17%);
-      max-width: 45vw;}}
+      width: 45vw;}}
