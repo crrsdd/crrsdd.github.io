@@ -1,10 +1,14 @@
 @font-face {
-  font-family: 'pixel';
-  src: URL('font.ttf') format('truetype');}
+  font-family: 'typewritter';
+  src: URL('typewritter.ttf') format('truetype');}
 
+@font-face {
+  font-family: 'heavydata';
+  src: URL('heavydata.ttf') format('truetype');}
+  
 body{
   background-color: Black;
-  font-family: "pixel";
+  font-family: "typewritter";
   color: White;}
 
 .footer{

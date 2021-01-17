@@ -1,0 +1,95 @@
+/* portrait */
+@media screen and (orientation: portrait){
+  .logo-404{
+	position: absolute;
+    margin: auto;
+    top: 30%;
+    left: 5%;
+    -moz-transform: translate(-5%, -30%);
+    -webkit-transform: translate(-5%, -30%);
+    transform: translate(-5%, -30%);
+    width: 30vw;
+  }
+  .logo-404-2{
+	position: absolute;
+    margin: auto;
+    top: 30%;
+    left: 50%;
+    -moz-transform: translate(-50%, -30%);
+    -webkit-transform: translate(-50%, -30%);
+    transform: translate(-50%, -30%);
+    width: 30vw;
+  }
+  .logo-404-3{
+	position: absolute;
+    margin: auto;
+    top: 30%;
+    left: 95%;
+    -moz-transform: translate(-95%, -30%);
+    -webkit-transform: translate(-95%, -30%);
+    transform: translate(-95%, -30%);
+    width: 30vw;
+  }
+  .logo-page-not-found{
+	position: absolute;
+    margin: auto;
+    top: 22%;
+    left: 50%;
+    -moz-transform: translate(-50%, -40%);
+    -webkit-transform: translate(-50%, -40%);
+    transform: translate(-50%, -40%);
+    width: 90vw;
+  }
+  .logo-page-not-found-2{
+	position: absolute;
+    margin: auto;
+    top: 38%;
+    left: 50%;
+    -moz-transform: translate(-50%, -40%);
+    -webkit-transform: translate(-50%, -40%);
+    transform: translate(-50%, -40%);
+    width: 90vw;
+  }
+  .logo-page-not-found-3{
+	position: absolute;
+    margin: auto;
+    top: 48%;
+    left: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 90vw;
+  }
+  .button-back{
+    position: absolute;
+    top: 65%;
+    left: 20%;
+    -moz-transform: translate(-20%, -65%);
+    -webkit-transform: translate(-20%, -65%);
+    transform: translate(-20%, -65%);
+    font-family: "typewritter";
+    font-size: 4vw;
+    color: DarkGrey;
+    background-color: transparent;
+    padding: 10px 10px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    outline: none !important;
+    white-space: nowrap;
+    overflow: hidden;
+	}
+  .button-back:hover{
+    color: White;
+	}
+}
+/* landscape */
+@media screen and (orientation: landscape){
+  .logo-404{
+	
+  }
+  .logo-page-not-found{
+	
+  }
+}
