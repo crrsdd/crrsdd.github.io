@@ -69,9 +69,68 @@
 /* landscape */
 @media screen and (orientation: landscape){
   .logo-404{
-	
+	position: absolute;
+    margin: auto;
+    top: 5%;
+    left: 50%;
+    -moz-transform: translate(-50%, -5%);
+    -webkit-transform: translate(-50%, -5%);
+    transform: translate(-50%, -5%);
+    width: 30vw;
   }
-  .logo-page-not-found{
-	
+  .page-not-found{
+    position: absolute;
+    font-size: 2vw;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
+  .button-back-to-previous{
+    position: absolute;
+    top: 68%;
+    left: 10%;
+    -moz-transform: translate(-10%, -68%);
+    -webkit-transform: translate(-10%, -68%);
+    transform: translate(-10%, -68%);
+    font-family: "typewritter";
+    font-size: 2.4vw;
+    color: DarkGrey;
+    background-color: transparent;
+    padding: 10px 10px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    outline: none !important;
+    white-space: nowrap;
+    overflow: hidden;
+	}
+  .button-back-to-previous:hover{
+    color: White;
+	}
+  .button-back-to-the-portal{
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    -moz-transform: translate(-10%, -85%);
+    -webkit-transform: translate(-10%, -85%);
+    transform: translate(-10%, -85%);
+    font-family: "typewritter";
+    font-size: 2.4vw;
+    color: DarkGrey;
+    background-color: transparent;
+    padding: 10px 10px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    outline: none !important;
+    white-space: nowrap;
+    overflow: hidden;
+	}
+  .button-back-to-the-portal:hover{
+    color: White;
+	}
 }
