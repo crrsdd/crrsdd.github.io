@@ -1,13 +1,40 @@
-.preloading {width: 100%; 
-text-align: center;
-height: 100%;
-position: fixed;
-background: #000000;
-z-index: 999999;
-top: 0px; 
-display: table; 
-left:0}
-.preloading .textpreload {
-display: table-cell; 
-text-align: center; 
-vertical-align: middle;}
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: Black;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader {
+  display: inline-block;
+  transform: translateZ(1px);
+}
+.loader > div {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  background: #fff;
+  animation: loader 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+@keyframes loader {
+  0%, 100% {
+    animation-timing-function: cubic-bezier(0.5, 0, 1, 0.5);
+  }
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(1800deg);
+    animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);
+  }
+  100% {
+    transform: rotateY(3600deg);
+  }
+}
+
