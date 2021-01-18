@@ -15,13 +15,26 @@
 	<link rel="stylesheet" href="css/animation.css">
   </head>
   <body>
-	<div class="coin"></div>
+	<div class="preloading">
+	  <div class="textpreload">LOADING</div>
+	</div>
+	
 	<img src="assets/image/sword.png" alt="sword logo" class="logo-sword">
+    
 	<button class="button-story" onclick="">Story</button>
 	<button class="button-notes" onclick="">Notes</button>
 	<button class="button-unarchived-files" onclick="">Unarchived Files</button>
 	<button class="button-about" onclick="">About</button>
+	
 	<div class="footer">
 	  <p>© crrsdd 2020</p>
 	</div>
+	
+    <script>
+	  jQuery(document).ready(function($) {
+	    $(window).load(function() {
+	  $(".preloading").fadeOut("slow"); })
+	  });
+</script>
   </body>
+</html>
