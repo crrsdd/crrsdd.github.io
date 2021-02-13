@@ -3,18 +3,12 @@
   src: URL('typewritter.ttf') format('truetype');}
 
 @font-face {
-  font-family: 'heavydata';
-  src: URL('heavydata.ttf') format('truetype');}
-  
+  font-family: 'typewritter';
+  src: URL('heavydata.ttf') format('heavydata');}
+
 body{
   background-color: Black;
   font-family: "typewritter";
   color: White;}
-
-.footer{
-  position: fixed;
-  font-size: 10px;
-  left: 0;
-  bottom: 0;
-  width: 98%;
-  text-align: right;}
+  
+  
