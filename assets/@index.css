@@ -1,0 +1,68 @@
+/* for portrait rotation mode*/
+@media screen and (orientation: portrait){
+  .xbutton{
+    position: absolute; margin: auto;
+    top: 41.3%; left: 40.6%;
+    -moz-transform: translate(-40.6%, -41.3%);
+    -webkit-transform: translate(-40.6%, -41.3%);
+    transform: translate(-40.6, -41.3%);
+    width: 17vw;}
+  .textbutton{
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    -moz-transform: translate(-50%, -42%);
+    -webkit-transform: translate(-50%, -42%);
+    transform: translate(-50%, -42%);
+    font-family: "pixel";
+    font-size: 3.7vw;
+    color: DarkGrey;
+    background-color: transparent;
+    padding: 10px 10px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    outline: none !important;
+    white-space: nowrap;
+    overflow: hidden;
+	}
+  .textbutton:hover{
+    color: White;
+  }
+}
+ /* for landscape rotation mode*/
+  @media screen and (orientation: landscape){
+	.xbutton{
+      position: absolute;
+      margin: auto;
+      top: 40.5%;
+      left: 44.5%;
+      -moz-transform: translate(-44.5%, -40.5%);
+      -webkit-transform: translate(-44.5%, -40.5%);
+      transform: translate(-44.5%, -40.5%);
+      width: 9vw;}
+  .textbutton{
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    -moz-transform: translate(-50%, -42%);
+    -webkit-transform: translate(-50%, -42%);
+    transform: translate(-50%, -42%);
+    font-family: "pixel";
+    font-size: 2.3vw;
+    color: DarkGrey;
+    background-color: transparent;
+    padding: 10px 10px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    outline: none !important;
+    white-space: nowrap;
+    overflow: hidden;
+	}
+  .textbutton:hover{
+    color: White;
+  }
+}
