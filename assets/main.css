@@ -1,8 +1,0 @@
-@font-face {
-  font-family: "pixel";
-  src: URL("media/font/pixel.ttf") format("truetype");}
-body{
-  background-color: Black;
-  font-family: "pixel";
-  color: White;
-}
