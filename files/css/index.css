@@ -1,0 +1,78 @@
+html body{
+  height: 100%;
+  background-color:#181425FF;
+  font-family: "pixel";
+  color: white;
+}
+/* for portrait rotation mode*/
+@media screen and (orientation: portrait){
+  .arcademachine{
+    position: absolute; margin: auto;
+    top: 100%; left: 50%;
+    -moz-transform: translate(-50%, -100%);
+    -webkit-transform: translate(-50%, -100%);
+    transform: transform(-50%, -100%);
+    width: 100vw;
+    overflow: hidden;
+    scroll: no;
+  }
+  .textbutton{
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    -moz-transform: translate(-50%, -64%);
+    -webkit-transform: translate(-50%, -64%);
+    transform: translate(-50%, -64%);
+    font-family: "pixel";
+    font-size: 3vw;
+    color: darkgrey;
+    background-color: transparent;
+    padding: 10px 10px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    outline: none !important;
+    white-space: nowrap;
+    overflow: hidden;
+	}
+  .textbutton:hover{
+    color: white;
+  }
+}
+ /* for landscape rotation mode*/
+  @media screen and (orientation: landscape){
+  .arcademachine{
+    position: absolute; margin: auto;
+    top: 100%; left: 50%;
+    -moz-transform: translate(-50%, -100%);
+    -webkit-transform: translate(-50%, -100%);
+    transform: transform(-50%, -100%);
+    width: 50vw;
+    overflow: hidden;
+    scroll: no;
+  }
+  .textbutton{
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    -moz-transform: translate(-50%, -64%);
+    -webkit-transform: translate(-50%, -64%);
+    transform: translate(-50%, -64%);
+    font-family: "pixel";
+    font-size: 2.8vw;
+    color: darkgrey;
+    background-color: transparent;
+    padding: 10px 10px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    outline: none !important;
+    white-space: nowrap;
+    overflow: hidden;
+	}
+  .textbutton:hover{
+    color: white;
+  }
+}
