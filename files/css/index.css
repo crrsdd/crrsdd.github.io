@@ -11,7 +11,7 @@ html body{
     top: 100%; left: 50%;
     -moz-transform: translate(-50%, -100%);
     -webkit-transform: translate(-50%, -100%);
-    transform: transform(-50%, -100%);
+    transform: translate(-50%, -100%);
     width: 100vw;
     overflow: hidden;
     scroll: no;
@@ -24,7 +24,7 @@ html body{
     -webkit-transform: translate(-50%, -64%);
     transform: translate(-50%, -64%);
     font-family: "pixel";
-    font-size: 3vw;
+    font-size: 3.5vw;
     color: darkgrey;
     background-color: transparent;
     padding: 10px 10px;
@@ -35,32 +35,37 @@ html body{
     outline: none !important;
     white-space: nowrap;
     overflow: hidden;
+    animation: color-change 1.5s infinite;
 	}
   .textbutton:hover{
     color: white;
+  }
+  @keyframes color-change{
+    0% {color: darkgrey;}
+    50% {color: white;}
   }
 }
  /* for landscape rotation mode*/
   @media screen and (orientation: landscape){
   .arcademachine{
     position: absolute; margin: auto;
-    top: 100%; left: 50%;
-    -moz-transform: translate(-50%, -100%);
-    -webkit-transform: translate(-50%, -100%);
-    transform: transform(-50%, -100%);
-    width: 50vw;
+    top: 99%; left: 50%;
+    -moz-transform: translate(-50%, -99%);
+    -webkit-transform: translate(-50%, -99%);
+    transform: translate(-50%, -99%);
+    width: 41.4vw;
     overflow: hidden;
     scroll: no;
   }
   .textbutton{
     position: absolute;
-    top: 64%;
-    left: 50%;
-    -moz-transform: translate(-50%, -64%);
-    -webkit-transform: translate(-50%, -64%);
-    transform: translate(-50%, -64%);
+    top: 47%;
+    left: 49.7%;
+    -moz-transform: translate(-49.7%, -47%);
+    -webkit-transform: translate(-49.7%, -47%);
+    transform: translate(-49.7%, -47%);
     font-family: "pixel";
-    font-size: 2.8vw;
+    font-size: 1.6vw;
     color: darkgrey;
     background-color: transparent;
     padding: 10px 10px;
@@ -71,8 +76,14 @@ html body{
     outline: none !important;
     white-space: nowrap;
     overflow: hidden;
+    animation: color-change 1.5s infinite;
 	}
   .textbutton:hover{
     color: white;
   }
+  @keyframes color-change{
+    0% {color: darkgrey;}
+    50% {color: white;}
+  }
+}
 }
